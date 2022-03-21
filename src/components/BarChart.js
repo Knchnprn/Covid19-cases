@@ -171,7 +171,7 @@ function BarChart () {
 
         <>
         <div style={{'textAlign':'center' , 'fontSize':'30px'}}>
-            Date : {date !== '' ? moment(date).format('DD/MM/YYYY') : ''}
+            Covid-19 Cases on Date : {date !== '' ? moment(date).format('DD/MM/YYYY') : ''}
         </div>
         <div className='chartheight'>
            <Bar options={chartOptions} data={chartData}  /> 
